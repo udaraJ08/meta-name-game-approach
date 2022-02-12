@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.full-page {
+    width:100vw;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-lg {
+    font-size: 20px;
+}
+
+.main-topic {
+    font-size: 100px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 5px;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.object-fit {
+    object-fit: cover;
+}
+
+.main-back-grad {
+    background-image: linear-gradient(to left bottom, #01132f, #091233, #150f36, #210937, #2d0135);
+}
+
+.sub-topic {
+    font-family: 'Poiret One', cursive;
+}
+
+.animate__animated.animate__bounce {
+    /*--animate-iteration-count: infinite;*/
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-font {
+    font-family: 'Lobster', cursive;
+}
+
+.text-grey {
+    color: #d5d5d5;
+}
+
+.slide-up {
+    height: 0;
+    transition: 3s;
+}
+
+.z-index-top {
+    z-index: 100;
+}
+
+.z-index-1 {
+    z-index: 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.mint-board-grad {
+    background-image: linear-gradient(to right top, #004838, #00423a, #003b3b, #003439, #012d35);
+}
+
+.side-nav {
+    box-shadow: 0 2px 10px #000000;
+    background-image: linear-gradient(to right top, #0c3229, #05312d, #013030, #002f33, #012d35);
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.text-shadow {
+    text-shadow: 0 5px 5px black;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.image-scale {
+    transition: 0.2s;
+}
+
+.image-scale:hover {
+    transition: 0.4s;
+    transform: scale(1.15, 1.15);
+}
+
+.pointer {
+    cursor: pointer;;
+}
